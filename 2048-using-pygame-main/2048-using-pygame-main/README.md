@@ -1,11 +1,36 @@
-# 2048-using-pygame
-![ICON](https://github.com/a-p7/2048-using-pygame/assets/140906554/95e3d052-81bc-4f50-a4eb-7b2e74ab09d2)
+# 2048 Game
+This is a simple Python implementation of the popular 2048 game using the pygame library for graphics and game logic.
 
-2048 Game in Python with Pygame
-This repository contains a Python implementation of the popular puzzle game "2048" using the Pygame library for graphics and user interaction. The game offers a familiar 4x4 grid where players strategically combine tiles to achieve the coveted 2048 tile value.
+How to Play
+Run the code in a Python environment with the required dependencies.
+The game window will appear with a 4x4 grid of cells.
+Use the arrow keys to move the tiles in the desired direction: up, down, left, or right.
+The objective is to combine tiles with the same number to form higher-valued tiles, starting with 2s. When two tiles with the same number collide, they merge into one with twice the value.
+The game ends when you successfully reach the "2048" tile, in which case you win, or when there are no more valid moves, leading to a game over.
+Installation
+Make sure you have Python installed on your system.
 
+Install the required library using the following command:
 
-run the game by opening main.exe
+Copy code
+pip install pygame
+Place the "icon.png" image file in the same directory as the code file.
+
+Usage
+Run the code, and a window will open displaying the game.
+The game grid will be displayed, and you can use the arrow keys to make your moves.
+Press the 'q' key or close the window to exit the game.
+Controls
+Arrow Up: Move tiles upwards
+Arrow Down: Move tiles downwards
+Arrow Left: Move tiles to the left
+Arrow Right: Move tiles to the right
+'q': Quit the game
+Game Logic
+The game_logic module handles the core game mechanics, including moving tiles, merging them, adding new tiles, and determining the game's current state.
+
+Game Graphics
+The game_graphics module handles the visual representation of the game grid and tiles using the pygame library.
 
 
 ![1](https://github.com/a-p7/2048-using-pygame/assets/140906554/249ab417-3092-49b9-9609-2d6fa72a400e)
